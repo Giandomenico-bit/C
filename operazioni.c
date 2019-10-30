@@ -4,17 +4,17 @@
 
 int main( void ){
 
-  float a, b;
+  int a, b;
 
   puts( "Inserisci primo valore : " );
-  scanf( "%f", &a );
+  scanf( "%d", &a );
   puts( "Inserisci primo valore : " );
-  scanf( "%f", &b );
+  scanf( "%d", &b );
 
-  printf( "Addizione  : %.2f\n", a + b );
-  printf( "Differenza : %.2f\n", a - b );
-  printf( "Prodotto   : %.2f\n", a * b );
-  printf( "Quoziente  : %.2f\n", a / b );
+  printf( "Addizione  : %3d\n", a + b );
+  printf( "Differenza : %3d\n", a - b );
+  printf( "Prodotto   : %3d\n", a * b );
+  printf( "Quoziente  : %3d\n", a / b );
 
   return 0;
 }
