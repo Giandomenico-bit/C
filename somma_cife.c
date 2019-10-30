@@ -5,16 +5,13 @@
 int main( void ){
 
   int value;
-  int checked;
   int digit_1, digit_2, digit_3;
   int sum;
 
   puts( "Inserisci un numero di 3 cifre : " );
   scanf( "%d", &value );
 
-  checked = value / 1000;
-
-  if( !checked ){
+  if( value > 99 && value < 1000 ){
 
     digit_1 = value % 10;
     value = value / 10;
