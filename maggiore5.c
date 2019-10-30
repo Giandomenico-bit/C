@@ -21,9 +21,9 @@ int main( void ){
 
   A = a * ( a >= b ) * ( a >= c ) * ( a >= d ) * ( a >= e );
   B = b * ( b >= c ) * ( b >= d ) * ( b >= e ) * ( b > a );
-  C = c * ( c >= d ) * ( c >= e ) * ( c >= a ) * ( c > b );
-  D = d * ( d >= e ) * ( d >= a ) * ( d >= b ) * ( d > c );
-  E = e * ( e >= a ) * ( e >= b ) * ( e >= c ) * ( e > d );
+  C = c * ( c >= d ) * ( c >= e ) * ( c > a  ) * ( c > b );
+  D = d * ( d >= e ) * ( d > a  ) * ( d > b  ) * ( d > c );
+  E = e * ( e > a )  * ( e > b  ) * ( e > c  ) * ( e > d );
 
   result = A + B + C + D + E;
 
