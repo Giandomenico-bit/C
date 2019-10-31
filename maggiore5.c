@@ -4,29 +4,28 @@
 
 int main( void ){
 
-  int a, b, c, d, e;
-  int A, B, C, D, E;
-  int result;
+  int value1, value2, value3, value4, value5;
+  int max;
 
-  printf( "Inserisci primo numero : " );
-  scanf( "%d", &a );
+  printf( "Inserisci primo numero   : " );
+  scanf( "%d", &value1 );
   printf( "Inserisci secondo numero : " );
-  scanf( "%d", &b );
-  printf( "Inserisci terzo numero : " );
-  scanf( "%d", &c );
-  printf( "Inserisci quarto numero : " );
-  scanf( "%d", &d );
-  printf( "Inserisci quinto numero : " );
-  scanf( "%d", &e );
+  scanf( "%d", &value2 );
+  printf( "Inserisci terzo numero   : " );
+  scanf( "%d", &value3 );
+  printf( "Inserisci quarto numero  : " );
+  scanf( "%d", &value4 );
+  printf( "Inserisci quinto numero  : " );
+  scanf( "%d", &value5 );
 
-  A = a * ( a >= b ) * ( a >= c ) * ( a >= d ) * ( a >= e );
-  B = b * ( b >= c ) * ( b >= d ) * ( b >= e ) * ( b > a );
-  C = c * ( c >= d ) * ( c >= e ) * ( c > a  ) * ( c > b );
-  D = d * ( d >= e ) * ( d > a  ) * ( d > b  ) * ( d > c );
-  E = e * ( e > a )  * ( e > b  ) * ( e > c  ) * ( e > d );
+  max = value1;
 
-  result = A + B + C + D + E;
+  if( value2 > max ) max = value2;
+  if( value3 > max ) max = value3;
+  if( value4 > max ) max = value4;
+  if( value5 > max ) max = value5;
 
-  printf( "Il massimo e' : %d\n", result );
+  printf( "Il massimo e' : %d\n", max );
+
   return 0;
 }
