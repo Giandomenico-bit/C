@@ -8,12 +8,12 @@
 int main( void ){
 
   int raggio;
-  float circonferenza ,area;
+  double circonferenza, area;
 
   puts( "Inserire raggio : " );
   scanf( "%d", &raggio );
 
-  circonferenza = 2 * Pi * raggio;
+  circonferenza = 2.0 * Pi * raggio;
   area = Pi * raggio * raggio;
 
   printf( "Circonferenza : %.3f\n", circonferenza );
