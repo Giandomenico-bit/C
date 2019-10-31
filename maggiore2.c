@@ -13,8 +13,7 @@ int main( void ){
   scanf( "%d", &b );
 
   max = a;
-  if( b > a )
-    max = b;
+  if( b > a ) max = b;
   printf( "il massimo e' : %d\n", max );
 
 
