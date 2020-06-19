@@ -15,7 +15,7 @@ void StampaCoda_SL( Coda_SL* topPtr );
 void CancellazioneNodo( Coda_SL** topPtr, char* username );
 void InserisciStringheArray( char** arrayStringhe, Coda_SL* topPtr );
 void CancellazioneDuplicati( char** arrayStringhe, int* occorrenze, Coda_SL** topPtr );
-int ConfrontaStringa( char** arrayStringhe, char* string );
+int ConfrontaStringa( char** array, char* string );
 void* AttraversaCoda_SL( Coda_SL* topPtr );
 
 int main( void ) {
