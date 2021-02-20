@@ -7,15 +7,15 @@ int main( void ){
   int value1, value2, value3, value4, value5;
   int max;
 
-  printf( "Inserisci primo numero   : " );
+  printf( "%s", "Inserisci primo numero   : " );
   scanf( "%d", &value1 );
-  printf( "Inserisci secondo numero : " );
+  printf( "%s", "Inserisci secondo numero : " );
   scanf( "%d", &value2 );
-  printf( "Inserisci terzo numero   : " );
+  printf( "%s", "Inserisci terzo numero   : " );
   scanf( "%d", &value3 );
-  printf( "Inserisci quarto numero  : " );
+  printf( "%s", "Inserisci quarto numero  : " );
   scanf( "%d", &value4 );
-  printf( "Inserisci quinto numero  : " );
+  printf( "%s", "Inserisci quinto numero  : " );
   scanf( "%d", &value5 );
 
   max = value1;
@@ -25,7 +25,7 @@ int main( void ){
   if( value4 > max ) max = value4;
   if( value5 > max ) max = value5;
 
-  printf( "Il massimo e' : %d\n", max );
+  printf( "\nIl massimo e' : %d\n", max );
 
   return 0;
 }
