@@ -4,8 +4,8 @@
 
 int main( void ){
 
-  printf( "Giandomenico " );
-  printf( "Iameo\n" );
+  printf( "%s", "Giandomenico " );
+  printf( "%s\n", "Iameo" );
 
   return 0;
 }
