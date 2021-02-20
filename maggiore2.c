@@ -7,9 +7,9 @@ int main( void ){
   int a, b;
   int max;
 
-  puts( "%s", "Inserisci primo numero : " );
+  printf( "%s", "Inserisci primo numero : " );
   scanf( "%d", &a );
-  puts( "%s", "Inserisci secondo numero : " );
+  printf( "%s", "Inserisci secondo numero : " );
   scanf( "%d", &b );
 
   max = a;
