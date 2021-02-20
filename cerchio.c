@@ -7,11 +7,10 @@
 
 int main( void ){
 
-  int raggio;
-  double circonferenza, area;
+  double raggio, circonferenza, area;
 
-  puts( "Inserire raggio : " );
-  scanf( "%d", &raggio );
+  printf( "%s", "Inserire raggio : " );
+  scanf( "%lf", &raggio );
 
   circonferenza = 2.0 * Pi * raggio;
   area = Pi * raggio * raggio;
