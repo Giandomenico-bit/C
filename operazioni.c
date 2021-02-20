@@ -6,19 +6,20 @@ int main( void ){
 
   int a, b;
 
-  puts( "Inserisci primo valore : " );
+  printf( "%s", "Inserisci primo valore : " );
   scanf( "%d", &a );
-  puts( "Inserisci primo valore : " );
+  printf( "%s", "Inserisci primo valore : " );
   scanf( "%d", &b );
-  puts( "" );
+
+  putchar( '\n' );
 
   printf( "Addizione  : %3d\n", a + b );
   printf( "Differenza : %3d\n", a - b );
   printf( "Prodotto   : %3d\n", a * b );
   printf( "Quoziente  : %3d\n", a / b );
-  printf( "Modulo     : %3d\n\n", a % b );
+  printf( "Modulo     : %3d\n", a % b );
 
-  printf( "Sono 5\n" );
+  printf( "\n%s\n", "Sono 5" );
 
   return 0;
 }
