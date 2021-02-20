@@ -4,13 +4,13 @@
 
 int main( void ){
 
-  printf( "********    ****          \n" );
-  printf( "*      *    *  *          \n" );
-  printf( "*      *    *  *          \n" );
-  printf( "*      *    *  *    ***** \n" );
-  printf( "*      *    *  *    *   * \n" );
-  printf( "*      *    *  *    *   * \n" );
-  printf( "********    ****    ***** \n" );
+  printf( "%s\n", "********    ****          " );
+  printf( "%s\n", "*      *    *  *          " );
+  printf( "%s\n", "*      *    *  *          " );
+  printf( "%s\n", "*      *    *  *    ***** " );
+  printf( "%s\n", "*      *    *  *    *   * " );
+  printf( "%s\n", "*      *    *  *    *   * " );
+  printf( "%s\n", "********    ****    ***** " );
 
 
   return 0;
