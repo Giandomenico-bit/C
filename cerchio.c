@@ -7,13 +7,14 @@
 
 int main( void ){
 
-  double raggio, circonferenza, area;
+  float circonferenza, area;
+  int raggio;
 
   printf( "%s", "Inserire raggio : " );
-  scanf( "%lf", &raggio );
+  scanf( "%d", &raggio );
 
-  circonferenza = 2.0 * Pi * raggio;
-  area = Pi * raggio * raggio;
+  circonferenza = 2.0 * Pi * ( float )raggio;
+  area = Pi * ( float )raggio * ( float )raggio;
 
   printf( "Circonferenza : %.3f\n", circonferenza );
   printf( "Area : %.3f\n", area );
